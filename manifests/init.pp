@@ -7,7 +7,7 @@ class yadr {
   $dotfiles = "${home}/.yadr"
 
   repository { $dotfiles:
-    source  => 'luxerama/dotfiles',
+    source  => 'thisisbrians/dotfiles',
   }
 
   exec { "install":
